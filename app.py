@@ -12,7 +12,7 @@ from utils.helpers import (
 from utils.predict import explain_features, predict_transaction
 from utils.preprocess import preprocess_input
 
-MODEL_FILE = Path(__file__).resolve().parent / "models" / "fraud_model_v1.pkl"
+MODEL_FILE = Path(__file__).resolve().parent /"fraud_model_v1.pkl"
 TRANSACTION_TYPES = [
     "Online purchase",
     "POS payment",
